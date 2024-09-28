@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Person Info UI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 h-screen">
+    <div class="flex h-full">
+        <!-- left sidebar -->
+        <div class="w-1/4 bg-white shadow-lg p-4">
+            <h2 class="text-xl font-semibold mb-4">People</h2>
+            <ul id="people-list" class="space-y-2">
+                
+            </ul>
+        </div>
+        <!-- details box -->
+        <div class="w-3/4 p-8">
+            <div id="person-info" class="hidden p-6 bg-white rounded-lg shadow-lg"></div>
+            <div id="no-selection" class="text-gray-500">Select a person to see their information.</div>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
